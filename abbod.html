@@ -1,0 +1,441 @@
+ <!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Abo Abdo</title>
+    <style>
+
+        
+        /*function infiniti bar*/
+        @keyframes mymove {
+        from {left: -100%;}
+        to {left: 80%;}
+        }
+
+        /*الخط الأميري*/
+        @import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+
+        /*الخط الكوفي*/
+        @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+        /*خط ثابت*/
+        @import url(http://fonts.googleapis.com/earlyaccess/thabit.css);
+
+        /*خط شهرزاد*/
+        @import url(http://fonts.googleapis.com/earlyaccess/lateef.css);
+
+        *{
+            box-sizing: border-box;
+            padding:0;
+            margin:0;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+        }
+
+
+        body{
+            /* -webkit-background-image: linear-gradient(90deg, #a180e2 23.3%, #78fd94 102%);
+            -moz-background-image: linear-gradient(90deg, #a180e2 23.3%, #78fd94 102%);        
+            -o-background-image: linear-gradient(90deg, #a180e2 23.3%, #78fd94 102%);
+            background-image: linear-gradient(90deg, #a180e2 23.3%, #78fd94 102%); */
+            background-color: #7de8bc;
+        }
+
+
+        header {
+            position: relative;
+             width:100%;
+             height:250px;
+            -webkit-background-image: linear-gradient(90deg, #c174f5 -6.7%, #766ef5 102%);
+            -moz-background-image: linear-gradient(90deg, #c174f5 -6.7%, #766ef5 102%);        
+            -o-background-image: linear-gradient(90deg, #c174f5 -6.7%, #766ef5 102%);
+            background-image: linear-gradient(90deg, #c174f5 -6.7%, #766ef5 102%);
+            background-color: #de64a4;
+
+        }
+
+        
+        h1{
+            color:rgb(255, 255, 255);
+            text-align:center;
+            position: relative;
+            top: 116px;
+            font-family:Amiri,"Trebuchet MS", Helvetica, sans-serif;
+            font-weight: 700;
+        }
+
+
+        div.bar {
+            width:100%;
+            background-color:#98cb7d;
+            height: 32px;
+            overflow: hidden;
+            position: absolute;
+            top: 250px;
+            z-index: -1;
+            -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+            -moz-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+            -o-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+        }
+
+
+        div.bar p {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            -webkit-animation: mymove 20s infinite;
+            -moz-animation:mymove 20s infinite;
+            -o-animation:mymove 20s infinite;
+            animation:mymove 20s infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -o-animation-timing-function: linear;
+            animation-timing-function: linear;
+            display: flex;
+            align-items: center;
+            color: #0652c5;
+            font-size: 20px;
+            font-family: Lateef, serif;
+            font-weight: 700;
+            /* z-index: -1; */
+        }
+
+        span{
+            color:#791f8a;
+        }
+
+
+        nav{
+            position: fixed;
+            /* position: relative; */
+            width: 100%;
+            height: 47px;
+            background-color: #31abdc;
+            justify-content: center;
+            display: flex;
+            top: 2px;
+            -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+            -moz-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+            -o-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+        }
+
+
+        
+        h4{
+            background-color: #84bef9;
+            justify-content: center;
+            height:37px;
+            width: 86%;
+            margin:0 13px;
+            display: flex;
+            align-items: center;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -o-border-radius: 0;
+            border-radius: 0;
+            border:1px solid rgb(62, 136, 146); 
+            font-family: "Droid Arabic Kufi" , serif;
+        }
+
+         /*hover h4*/
+         h4:hover{
+            background-color:rgb(139, 240, 125);
+            color:rgb(155, 23, 23);
+            -webkit-border-radius: 13px;
+            -moz-border-radius: 13px;
+            -o-border-radius: 13px;
+            border-radius: 13px;
+            
+        }
+
+
+        nav > ul {
+                    position: absolute;  top: 4px;
+                    display:inline-table;
+                    justify-content: center;
+                    /* left:110px; */
+                    right:-10%;
+                    margin-left:5%;
+                    width:105%;
+        }
+
+
+        .navbar ul ul{display:none;}
+
+        /*li:Hover ul block*/
+        .navbar li:hover > ul {display:block;  height:100%;}
+
+
+        li{
+            justify-content: center;
+            text-align:center;
+            width:9.5%;
+            list-style: none;
+            float: left;
+            -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+            -moz-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+            -o-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+         box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+        }
+
+
+        ul li ul li{
+            width:100%;
+        }
+
+
+        ul a{
+            text-decoration: none;
+            justify-content: center;
+            text-align: center;
+            display: inline-block;
+            background-color: rgb(102, 234, 160);
+            width: 92%;
+            height: 26px;
+            margin: 3%;
+            display: flex;
+            align-items: center;
+            color:rgb(72, 5, 117);
+        }
+
+
+        /*hover a*/
+        a:hover{
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+            border-radius: 10px;
+            background-color:rgb(126, 221, 114);
+            color:rgb(217, 225, 238);
+        }
+
+
+        /*hover li a*/
+        ul li ul li a:hover {
+            background-color:rgb(153, 101, 248);
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+            border-radius: 10px;
+        }
+
+
+        nav > ul > li > a { background-color: #77b3ef;}
+
+
+        /*main start*/
+        main{width:100%;  margin-top: 33px;}
+        /*main End*/
+
+
+        /*aside start*/
+        aside.left {
+            width: 23.5%;
+            border: 3px solid #9045c6;
+            clear: both;
+            float: left;
+            height: 200px;
+            margin:1% .75% 1% 1%;
+        }
+        /*aside End*/
+
+
+        /*section right start*/
+        section.right {
+            width: 73.25%;
+            border: 3px solid #9045c6;
+            float: left;
+            height: 200px;
+            margin: 1% 1% 1% .25%;
+        }
+        /*section right End*/
+
+
+        /*Footer Stert*/
+        footer{
+            clear:both;
+            width:98%;
+            border: 3px solid #9045c6;
+            height: 200px;
+            margin:1% 1% 1% 1%;
+        }
+        /*Footer End*/
+
+
+    </style>
+</head>
+<body>
+    <!--Header Start-->
+    <header>
+        <h1>مواقع هامة لكل شخص</h1>
+
+        <!--Nav Bar Start-->
+        <nav class="navbar">
+        
+            <ul>       
+                <li>
+                    <h4>المدونة وملحقاتها</h4>
+                    <ul>   
+                        <li><a href="https://www.blogger.com" target="_blank">بلوغر</a></li>
+                        <li><a href="https://search.google.com/u/2/search-console" target="_blank">مشرفي غوغل</a></li>
+                        <li><a href="https://ezinearticles.com/" target="blank">موسوعة المقالات</a></li><br>
+                        <li><a href="https://smallseotools.com/plagiarism-checker/" target="_blank">فحص المقالات</a></li>
+                        <li><a href="https://smallseotools.com/article-rewriter/" target="_blank">إعادة الصياغة</a></li>
+                        <li><a href="https://app.grammarly.com/ddocs/775262395" target="_blank">مدقق لغوي</a></li>
+                        <li><a href="https://tinypng.com/" target="_blank">تصغير الصور</a></li>
+                        <li><a href="https://feedburner.google.com/" target="_blank">فيد برنر</a></li>
+                        <li><a href="https://www.bing.com/webmaster/home/dashboard?url=https%3A%2F%2Fhow5tart.blogspot.com%2F" target="_blank">لوحة بنج</a></li>
+                    </ul>
+                </li>
+    
+                
+                <li>
+                    <h4>اختبار وتحسين المواقع</h4>
+                    <ul>                      
+                        <li><a href="https://wave.webaim.org/" target="_blank">امكانية الوصول</a></li><br>
+                        <li><a href="https://validator.w3.org/" target="_blank">صحة الكود</a></li><br>
+                        <li><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">قياس السرعة</a></li>
+                        <li><a href="https://www.brokenlinkcheck.com/broken-links.php#status" target="_blank">فحص روابط</a></li>
+                        <li><a href="https://www.google.com/webmasters/tools/removals?pli=1" target="_blank">ازالة الروابط القديمة</a></li>
+                     
+                    </ul>
+                </li>
+    
+                <li>
+                    <h4>صور وقوالب</h4>
+                    <ul>
+                        <li><a href="https://unsplash.com/" target="_blank">انسبلاش</a></li>
+                        <li><a href="https://www.flaticon.com/" target="_blank">فلات آيكون</a></li>
+                        <li><a href="https://www.shutterstock.com/" target="_blank">شترستوك</a></li>
+                        <li><a href="https://www.freepik.com/" target="_blank">فري بيك</a></li>
+
+                        <li><a href="https://www.smiletemplates.com/free/powerpoint-templates/0.html" target="_blank">بور بوينت1</a></li>
+                        <li><a href="https://www.templateswise.com/" target="blank">بور بوينت2</a></li>
+                        <li><a href="https://www.free-power-point-templates.com/themes/" target="_blank">بور بوينت3</a></li>
+                        <li><a href="https://templates.office.com/ar-SA/templates-for-PowerPoint" target="_blank">بور بوينت4</a></li>
+
+                        <li><a href="https://www.smiletemplates.com/powerpoint-templates/gloved-hand-with-wrench/09382/" target="_blank">1تيمبليت css</a></li>
+                        <li><a href="https://www.os-templates.com/free-website-templates/yammoe" target="_blank">2تيمبليت css</a></li>
+                        <li><a href="https://getbootstrap.com/" target="_blank">بوتستراب غامق</a></li>
+                        <li><a href="https://mdbootstrap.com/docs/jquery/javascript/carousel/" target="_lank">بوتستراب كاشف</a></li>
+
+                    </ul>
+                </li>
+    
+                <li>
+                    <h4>الترجمة</h4>
+                    <ul>
+                        <li><a href="https://translate.google.de/" target="_blank">Google Translate</a><li/>
+                        <li><a href="https://mobile.reverso.net/" target="_blank">Reverso Translate</a></li>
+                    </ul>
+                </li>
+    
+                <li>
+                    <h4>تصميم المواقع</h4>
+                    <ul>
+                        <li><a href="https://github.com/startpro3" target="_blank">غيت هوب</a></li>
+                        <li><a href="https://codepen.io/pen/?__cf_chl_jschl_tk__=84d362d2786c71b3a5e2751d04c1f690a4e8a9df-1590521759-0-Aav_5FV739F-elci-xjlJTFxcZgQDEbPv8JEBDCH00h0rZBKDp2WCjy7E7le6LPc7niY4fIr4j5WwyNR4W07y-Zg6uWt1ZqdIMB7D-zzzosTdzmcKSP9PKS1ZGPICwyFRaQG60lJlteJYLt8cACoP7CkIa9e_euATEd4EwOp7650FvzlPsxDPuEJfns_if_S7Ez54Hy2O9ssn0pPzfnOL2qrOG_d2nYP1PgwSL214hA-H7YsVmHpabkEN2HN0b4XSI6o2OmXypa6xRUOSborC5b7en1AVoRyHksPnG4SfBB2wWvgUTjyndF1ZNiPApVPNfYTumldvtpv1dEx08l0hXY" target="_blank">كود بن</a></li>
+                        <li><a href="http://www.css3generator.com/" target="_blank">تعلم CSS</a></li>
+                        <li><a href="https://www.eggradients.com/category/sunset-gradient" target="_blank">غرادينت CSS</a></li>
+                        <li><a href="https://caniuse.com/" target="_blank">دعم المتصفحات</a></li>
+                        <li><a href="https://www.cssmatic.com/" target="_blank">CSS3 اكواد</a></li>
+                        <li><a href="https://bennettfeely.com/clippy/" target="_blank">CSS3 أشكال</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>تجارة وتسويق</h4>
+                    <ul>  
+                        <li><a href="https://www.pinterest.com/" target="_blank">بنتريست</a></li>
+                        <li><a href="https://ads.pinterest.com/advertiser/549760857643/ads/create/" target="_blank">بنتريست مفاتيح</a></li>
+                        <li><a href="https://www.amazon.com/" target="_blank">أمازون</a></li>
+                        <li><a href="https://www.redbubble.com/" target="_blank">ريد بابل</a></li>
+                        <li><a href="https://submit.shutterstock.com/upload/portfolio?language=en" target="_blank">شتر ستوك</a></li>
+                        <li><a href="https://www.canva.com/ar_eg/" target="_blank">تصميم كانفا</a></li>
+                        <li><a href="https://www11.lunapic.com/editor/" target="_blank">لانابيك تكبير صور</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>كورسات تعليمية</h4>
+                    <ul>
+                        <li><a href="https://www.coursera.org/" target="_blank">كورسيرا</a></li>
+                        <li><a href="https://classroom.udacity.com/" target="_blank">مليون مبرمج ع</a></li>
+                        <li><a href="https://www.rwaq.org/" target="_blank">رواق</a></li>
+                        <li><a href="https://learndigital.withgoogle.com/" target="_blank">منصة غووغل</a></li>
+                        <li><a href="https://programs.edraak.org" target="_blank">إدراك</a></li>
+                        <li><a href="https://app.barmej.com/" target="_blank">برمج</a></li>
+                        <li><a href="https://ekampus.anadolu.edu.tr/#/dashboard" target="_blank">دروس الاناضول</a></li>
+                        <li><a href="https://esinav.anadolu.edu.tr/" target="_blank">امتحان الاناضول</a></li>
+                        <li><a href="https://elearning.aljazeera.net" target="_blank">الجزيرة</a></li>
+                        <li><a href="https://coretabs.net/" target="_blank">كورتابز</a></li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>مواقع حكومية</h4>
+                    <ul>
+                        <li><a href="https://www.hastanerandevu.gov.tr/Randevu/?saglikKurumuHastaneKodu=6349&lang=ar" target="_blank">حجز موعد مشفى</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>تعليم برمجة</h4>
+                    <ul>
+                        <li><a href="https://harmash.com/" target="_blank">هرماش</a></li>
+                        <li><a href="https://academy.hsoub.com/" target="_blank">حسوب</a></li>
+                        <li><a href="https://www.w3schools.com/" target="_blank">w3school</a></li>
+                        <li><a href="https://developer.mozilla.org/" target="_blank">موارد المطورين mdn</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+        <!--Nav Bar End-->
+
+       
+        <!--Div Bar Start-->
+        <div class="bar">
+            <p>أهلاً وسهلاً بكم في أكاديمية <span>&nbsp; How Start &nbsp;</span> التعليمية , نهتم بجميع المجالات التكنلوجية , نتمنى لكم دوام الفائدة والمتعة</p>
+        </div>
+        <!--Div Bar End-->
+    </header>
+    <!--Header End-->
+
+       
+
+    <!--Main Start-->
+    <main>
+        <!--Aside Left Start-->
+        <aside class="left">
+            <h2>المحتوى الإضافي</h2>
+        </aside>
+        <!--Aside left End-->
+
+
+        <!--Section Right Start-->
+        <section class="right">
+            <h2>المحتوى الرئيسي</h2>
+        </section>
+        <!--Section Right End-->
+
+    </main>
+     <!--Main End-->
+
+
+    <!--Footer Start-->
+    <footer>
+        <h2>قسم التواصل والمعلومات</h2>
+    </footer>
+    <!--Footer End-->
+
+
+</body>
+</html>
