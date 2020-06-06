@@ -1,5 +1,5 @@
 $(document).ready(function(){
- $("body").on("click", function(){
+ $("this").on("click", function(){
   alert("The paragraph was clicked.");
 });
 });
