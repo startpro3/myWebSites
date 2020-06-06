@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $("p").css("color","#00F");
+  $("p").fadeIn(3000).css("color","#00F");
 });
