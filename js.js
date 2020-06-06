@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $("nav").click(function(){
-  $("ul").show();
+  $("p").on("click", function(){
+    alert("The paragraph was clicked.");
   });
 });
 
