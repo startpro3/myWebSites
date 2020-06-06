@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  $("ul").hide();
+ $("body").on("click", function(){
+  alert("The paragraph was clicked.");
+});
 });
